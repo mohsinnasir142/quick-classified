@@ -1,0 +1,490 @@
+C:\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\QuickClassified\QuickClassified\QuickClassified\bin\QuickClassified.dll
+C:\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\QuickClassified\QuickClassified\QuickClassified\bin\QuickClassified.pdb
+C:\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\QuickClassified\QuickClassified\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\QuickClassified\QuickClassified\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\QuickClassified\QuickClassified\QuickClassified\obj\Debug\QuickClassified.pdb
+\\mlab-pc25\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\QuickClassified\QuickClassified\QuickClassified\bin\QuickClassified.dll
+\\mlab-pc25\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\QuickClassified\QuickClassified\QuickClassified\bin\QuickClassified.pdb
+\\mlab-pc25\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\QuickClassified\QuickClassified\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+\\mlab-pc25\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\QuickClassified\QuickClassified\QuickClassified\obj\Debug\QuickClassified.dll
+\\mlab-pc25\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\QuickClassified\QuickClassified\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\mwi\Desktop\QuickClassified\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mwi\Desktop\QuickClassified\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\mwi\Desktop\QuickClassified\QuickClassified\bin\QuickClassified.dll
+C:\Users\mwi\Desktop\QuickClassified\QuickClassified\bin\QuickClassified.pdb
+C:\Users\mwi\Desktop\QuickClassified\QuickClassified\obj\Debug\QuickClassified.pdb
+\\mlab-pc26\Users\142-bscs-09\Desktop\classified  20-07-2011\QuickClassified\QuickClassified\bin\QuickClassified.dll
+\\mlab-pc26\Users\142-bscs-09\Desktop\classified  20-07-2011\QuickClassified\QuickClassified\bin\QuickClassified.pdb
+\\mlab-pc26\Users\142-bscs-09\Desktop\classified  20-07-2011\QuickClassified\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+\\mlab-pc26\Users\142-bscs-09\Desktop\classified  20-07-2011\QuickClassified\QuickClassified\obj\Debug\QuickClassified.dll
+\\mlab-pc26\Users\142-bscs-09\Desktop\classified  20-07-2011\QuickClassified\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Documents and Settings\General\Desktop\QuickClassified\QuickClassified\bin\QuickClassified.dll
+C:\Documents and Settings\General\Desktop\QuickClassified\QuickClassified\bin\QuickClassified.pdb
+C:\Documents and Settings\General\Desktop\QuickClassified\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\General\Desktop\QuickClassified\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Documents and Settings\General\Desktop\QuickClassified\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Documents and Settings\General\Desktop\QuickClassified1\QuickClassified\bin\QuickClassified.dll
+C:\Documents and Settings\General\Desktop\QuickClassified1\QuickClassified\bin\QuickClassified.pdb
+C:\Documents and Settings\General\Desktop\QuickClassified1\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\General\Desktop\QuickClassified1\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Documents and Settings\General\Desktop\QuickClassified1\QuickClassified\obj\Debug\QuickClassified.pdb
+D:\classified backup\QuickClassified1\QuickClassified\bin\QuickClassified.dll
+D:\classified backup\QuickClassified1\QuickClassified\bin\QuickClassified.pdb
+D:\classified backup\QuickClassified1\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+D:\classified backup\QuickClassified1\QuickClassified\obj\Debug\QuickClassified.dll
+D:\classified backup\QuickClassified1\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\ZeEsHaN\Desktop\QuickClassified1\QuickClassified\bin\QuickClassified.dll
+C:\Users\ZeEsHaN\Desktop\QuickClassified1\QuickClassified\bin\QuickClassified.pdb
+C:\Users\ZeEsHaN\Desktop\QuickClassified1\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ZeEsHaN\Desktop\QuickClassified1\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\ZeEsHaN\Desktop\QuickClassified1\QuickClassified\obj\Debug\QuickClassified.pdb
+H:\QuickClassified zeeshan\QuickClassified\bin\QuickClassified.dll
+H:\QuickClassified zeeshan\QuickClassified\bin\QuickClassified.pdb
+H:\QuickClassified zeeshan\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+H:\QuickClassified zeeshan\QuickClassified\obj\Debug\QuickClassified.dll
+H:\QuickClassified zeeshan\QuickClassified\obj\Debug\QuickClassified.pdb
+F:\QuickClassified zeeshan\QuickClassified\bin\QuickClassified.dll
+F:\QuickClassified zeeshan\QuickClassified\bin\QuickClassified.pdb
+F:\QuickClassified zeeshan\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+F:\QuickClassified zeeshan\QuickClassified\obj\Debug\QuickClassified.dll
+F:\QuickClassified zeeshan\QuickClassified\obj\Debug\QuickClassified.pdb
+I:\QuickClassified zeeshan\QuickClassified\bin\QuickClassified.dll
+I:\QuickClassified zeeshan\QuickClassified\bin\QuickClassified.pdb
+I:\QuickClassified zeeshan\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+I:\QuickClassified zeeshan\QuickClassified\obj\Debug\QuickClassified.dll
+I:\QuickClassified zeeshan\QuickClassified\obj\Debug\QuickClassified.pdb
+D:\QuickClassified zeeshan\QuickClassified\bin\QuickClassified.dll
+D:\QuickClassified zeeshan\QuickClassified\bin\QuickClassified.pdb
+D:\QuickClassified zeeshan\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+D:\QuickClassified zeeshan\QuickClassified\obj\Debug\QuickClassified.dll
+D:\QuickClassified zeeshan\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\QuickClassified zeeshan\QuickClassified\bin\QuickClassified.dll
+C:\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\QuickClassified zeeshan\QuickClassified\bin\QuickClassified.pdb
+C:\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\QuickClassified zeeshan\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\QuickClassified zeeshan\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\QuickClassified zeeshan\QuickClassified\obj\Debug\QuickClassified.pdb
+F:\quickclassified  new\QuickClassified zeeshan\QuickClassified\bin\QuickClassified.dll
+F:\quickclassified  new\QuickClassified zeeshan\QuickClassified\bin\QuickClassified.pdb
+F:\quickclassified  new\QuickClassified zeeshan\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+F:\quickclassified  new\QuickClassified zeeshan\QuickClassified\obj\Debug\QuickClassified.dll
+F:\quickclassified  new\QuickClassified zeeshan\QuickClassified\obj\Debug\QuickClassified.pdb
+\\mlab-pc25\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\QuickClassified 7sep 2011\QuickClassified\bin\QuickClassified.dll
+\\mlab-pc25\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\QuickClassified 7sep 2011\QuickClassified\bin\QuickClassified.pdb
+\\mlab-pc25\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\QuickClassified 7sep 2011\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+\\mlab-pc25\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\QuickClassified 7sep 2011\QuickClassified\obj\Debug\QuickClassified.dll
+\\mlab-pc25\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\QuickClassified 7sep 2011\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\QuickClassified 7sep 2011\QuickClassified\bin\QuickClassified.dll
+C:\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\QuickClassified 7sep 2011\QuickClassified\bin\QuickClassified.pdb
+C:\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\QuickClassified 7sep 2011\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\QuickClassified 7sep 2011\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\QuickClassified 7sep 2011\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\142-bscs-09\Desktop\QuickClassified 7sep 2011\QuickClassified\bin\QuickClassified.dll
+C:\Users\142-bscs-09\Desktop\QuickClassified 7sep 2011\QuickClassified\bin\QuickClassified.pdb
+C:\Users\142-bscs-09\Desktop\QuickClassified 7sep 2011\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\142-bscs-09\Desktop\QuickClassified 7sep 2011\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\142-bscs-09\Desktop\QuickClassified 7sep 2011\QuickClassified\obj\Debug\QuickClassified.pdb
+H:\quickclassified  new\QuickClassified 7sep 2011\QuickClassified\bin\QuickClassified.dll
+H:\quickclassified  new\QuickClassified 7sep 2011\QuickClassified\bin\QuickClassified.pdb
+H:\quickclassified  new\QuickClassified 7sep 2011\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+H:\quickclassified  new\QuickClassified 7sep 2011\QuickClassified\obj\Debug\QuickClassified.dll
+H:\quickclassified  new\QuickClassified 7sep 2011\QuickClassified\obj\Debug\QuickClassified.pdb
+F:\quickclassified  new\QuickClassified 7sep 2011\QuickClassified\bin\QuickClassified.dll
+F:\quickclassified  new\QuickClassified 7sep 2011\QuickClassified\bin\QuickClassified.pdb
+F:\quickclassified  new\QuickClassified 7sep 2011\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+F:\quickclassified  new\QuickClassified 7sep 2011\QuickClassified\obj\Debug\QuickClassified.dll
+F:\quickclassified  new\QuickClassified 7sep 2011\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\classified-build-22-09-11-a\QuickClassified\bin\QuickClassified.dll
+C:\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\classified-build-22-09-11-a\QuickClassified\bin\QuickClassified.pdb
+C:\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\classified-build-22-09-11-a\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\classified-build-22-09-11-a\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\classified-build-22-09-11-a\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\classified-build-29-09-11-a\QuickClassified\bin\QuickClassified.dll
+C:\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\classified-build-29-09-11-a\QuickClassified\bin\QuickClassified.pdb
+C:\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\classified-build-29-09-11-a\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\classified-build-29-09-11-a\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\138-bscs-09\Desktop\MUTUAL DATA\PROJECTS\classified-build-29-09-11-a\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\142-bscs-09\Desktop\classified-build-12-10-11-a\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\142-bscs-09\Desktop\classified-build-12-10-11-a\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\142-bscs-09\Desktop\classified-build-12-10-11-a\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\142-bscs-09\Desktop\classified-build-12-10-11-a\QuickClassified\bin\QuickClassified.dll
+C:\Users\142-bscs-09\Desktop\classified-build-12-10-11-a\QuickClassified\bin\QuickClassified.pdb
+F:\classified-build-12-10-11-M\QuickClassified\bin\QuickClassified.dll
+F:\classified-build-12-10-11-M\QuickClassified\bin\QuickClassified.pdb
+F:\classified-build-12-10-11-M\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+F:\classified-build-12-10-11-M\QuickClassified\obj\Debug\QuickClassified.dll
+F:\classified-build-12-10-11-M\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\142-bscs-09\Desktop\classified backup\classified-build-17-10-11-M\QuickClassified\bin\QuickClassified.dll
+C:\Users\142-bscs-09\Desktop\classified backup\classified-build-17-10-11-M\QuickClassified\bin\QuickClassified.pdb
+C:\Users\142-bscs-09\Desktop\classified backup\classified-build-17-10-11-M\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\142-bscs-09\Desktop\classified backup\classified-build-17-10-11-M\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\142-bscs-09\Desktop\classified backup\classified-build-17-10-11-M\QuickClassified\obj\Debug\QuickClassified.pdb
+F:\classified-build-18-10-11-M\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+F:\classified-build-18-10-11-M\QuickClassified\obj\Debug\QuickClassified.dll
+F:\classified-build-18-10-11-M\QuickClassified\bin\QuickClassified.dll
+F:\classified-build-18-10-11-M\QuickClassified\bin\QuickClassified.pdb
+F:\classified-build-18-10-11-M\QuickClassified\obj\Debug\QuickClassified.pdb
+F:\classified-build-19-10-11-M\QuickClassified\bin\QuickClassified.dll
+F:\classified-build-19-10-11-M\QuickClassified\bin\QuickClassified.pdb
+F:\classified-build-19-10-11-M\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+F:\classified-build-19-10-11-M\QuickClassified\obj\Debug\QuickClassified.dll
+F:\classified-build-19-10-11-M\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\142-bscs-09\Desktop\classified-build-19-10-11-M\QuickClassified\bin\QuickClassified.dll
+C:\Users\142-bscs-09\Desktop\classified-build-19-10-11-M\QuickClassified\bin\QuickClassified.pdb
+C:\Users\142-bscs-09\Desktop\classified-build-19-10-11-M\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\142-bscs-09\Desktop\classified-build-19-10-11-M\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\142-bscs-09\Desktop\classified-build-19-10-11-M\QuickClassified\obj\Debug\QuickClassified.pdb
+F:\classified-build-20-10-11-M\QuickClassified\bin\QuickClassified.dll
+F:\classified-build-20-10-11-M\QuickClassified\bin\QuickClassified.pdb
+F:\classified-build-20-10-11-M\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+F:\classified-build-20-10-11-M\QuickClassified\obj\Debug\QuickClassified.dll
+F:\classified-build-20-10-11-M\QuickClassified\obj\Debug\QuickClassified.pdb
+F:\classified-build-25-10-11-M\QuickClassified\bin\QuickClassified.dll
+F:\classified-build-25-10-11-M\QuickClassified\bin\QuickClassified.pdb
+F:\classified-build-25-10-11-M\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+F:\classified-build-25-10-11-M\QuickClassified\obj\Debug\QuickClassified.dll
+F:\classified-build-25-10-11-M\QuickClassified\obj\Debug\QuickClassified.pdb
+F:\classified-build-31-10-11-M\QuickClassified\bin\QuickClassified.dll
+F:\classified-build-31-10-11-M\QuickClassified\bin\QuickClassified.pdb
+F:\classified-build-31-10-11-M\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+F:\classified-build-31-10-11-M\QuickClassified\obj\Debug\QuickClassified.dll
+F:\classified-build-31-10-11-M\QuickClassified\obj\Debug\QuickClassified.pdb
+F:\classified-build-31-10-11-M\QuickClassified\bin\MSCaptcha.xml
+F:\Vs projects\classified-build-1-11-11-M\QuickClassified\bin\QuickClassified.dll
+F:\Vs projects\classified-build-1-11-11-M\QuickClassified\bin\QuickClassified.pdb
+F:\Vs projects\classified-build-1-11-11-M\QuickClassified\bin\MSCaptcha.xml
+F:\Vs projects\classified-build-1-11-11-M\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+F:\Vs projects\classified-build-1-11-11-M\QuickClassified\obj\Debug\QuickClassified.dll
+F:\Vs projects\classified-build-1-11-11-M\QuickClassified\obj\Debug\QuickClassified.pdb
+F:\Vs projects\classified-build-1-11-11-designnng\QuickClassified\bin\QuickClassified.dll
+F:\Vs projects\classified-build-1-11-11-designnng\QuickClassified\bin\QuickClassified.pdb
+F:\Vs projects\classified-build-1-11-11-designnng\QuickClassified\bin\MSCaptcha.xml
+F:\Vs projects\classified-build-1-11-11-designnng\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+F:\Vs projects\classified-build-1-11-11-designnng\QuickClassified\obj\Debug\QuickClassified.dll
+F:\Vs projects\classified-build-1-11-11-designnng\QuickClassified\obj\Debug\QuickClassified.pdb
+F:\Vs projects\classified-build-1-11-11-menulinks\QuickClassified\bin\QuickClassified.dll
+F:\Vs projects\classified-build-1-11-11-menulinks\QuickClassified\bin\QuickClassified.pdb
+F:\Vs projects\classified-build-1-11-11-menulinks\QuickClassified\bin\MSCaptcha.xml
+F:\Vs projects\classified-build-1-11-11-menulinks\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+F:\Vs projects\classified-build-1-11-11-menulinks\QuickClassified\obj\Debug\QuickClassified.dll
+F:\Vs projects\classified-build-1-11-11-menulinks\QuickClassified\obj\Debug\QuickClassified.pdb
+F:\Vs projects\classified-build-1-11-11-imagsliders\QuickClassified\bin\QuickClassified.dll
+F:\Vs projects\classified-build-1-11-11-imagsliders\QuickClassified\bin\QuickClassified.pdb
+F:\Vs projects\classified-build-1-11-11-imagsliders\QuickClassified\bin\MSCaptcha.xml
+F:\Vs projects\classified-build-1-11-11-imagsliders\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+F:\Vs projects\classified-build-1-11-11-imagsliders\QuickClassified\obj\Debug\QuickClassified.dll
+F:\Vs projects\classified-build-1-11-11-imagsliders\QuickClassified\obj\Debug\QuickClassified.pdb
+F:\Vs projects\classified-build-1-11-11-newss\QuickClassified\bin\QuickClassified.dll
+F:\Vs projects\classified-build-1-11-11-newss\QuickClassified\bin\QuickClassified.pdb
+F:\Vs projects\classified-build-1-11-11-newss\QuickClassified\bin\MSCaptcha.xml
+F:\Vs projects\classified-build-1-11-11-newss\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+F:\Vs projects\classified-build-1-11-11-newss\QuickClassified\obj\Debug\QuickClassified.dll
+F:\Vs projects\classified-build-1-11-11-newss\QuickClassified\obj\Debug\QuickClassified.pdb
+F:\Vs projects\classified-build-1-11-11-psot ads\QuickClassified\bin\QuickClassified.dll
+F:\Vs projects\classified-build-1-11-11-psot ads\QuickClassified\bin\QuickClassified.pdb
+F:\Vs projects\classified-build-1-11-11-psot ads\QuickClassified\bin\MSCaptcha.xml
+F:\Vs projects\classified-build-1-11-11-psot ads\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+F:\Vs projects\classified-build-1-11-11-psot ads\QuickClassified\obj\Debug\QuickClassified.dll
+F:\Vs projects\classified-build-1-11-11-psot ads\QuickClassified\obj\Debug\QuickClassified.pdb
+F:\Vs projects\classified-build-1-11-11-aboutus\QuickClassified\bin\QuickClassified.dll
+F:\Vs projects\classified-build-1-11-11-aboutus\QuickClassified\bin\QuickClassified.pdb
+F:\Vs projects\classified-build-1-11-11-aboutus\QuickClassified\bin\MSCaptcha.xml
+F:\Vs projects\classified-build-1-11-11-aboutus\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+F:\Vs projects\classified-build-1-11-11-aboutus\QuickClassified\obj\Debug\QuickClassified.dll
+F:\Vs projects\classified-build-1-11-11-aboutus\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\144-bscs-09\Desktop\classified-build-1-11-11-aboutus\QuickClassified\bin\QuickClassified.dll
+C:\Users\144-bscs-09\Desktop\classified-build-1-11-11-aboutus\QuickClassified\bin\QuickClassified.pdb
+C:\Users\144-bscs-09\Desktop\classified-build-1-11-11-aboutus\QuickClassified\bin\MSCaptcha.xml
+C:\Users\144-bscs-09\Desktop\classified-build-1-11-11-aboutus\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\144-bscs-09\Desktop\classified-build-1-11-11-aboutus\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\144-bscs-09\Desktop\classified-build-1-11-11-aboutus\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\144-bscs-09\Desktop\classified-build-1-11-11-aboutuspanag\QuickClassified\bin\QuickClassified.dll
+C:\Users\144-bscs-09\Desktop\classified-build-1-11-11-aboutuspanag\QuickClassified\bin\QuickClassified.pdb
+C:\Users\144-bscs-09\Desktop\classified-build-1-11-11-aboutuspanag\QuickClassified\bin\MSCaptcha.xml
+C:\Users\144-bscs-09\Desktop\classified-build-1-11-11-aboutuspanag\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\144-bscs-09\Desktop\classified-build-1-11-11-aboutuspanag\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\144-bscs-09\Desktop\classified-build-1-11-11-aboutuspanag\QuickClassified\obj\Debug\QuickClassified.pdb
+F:\New folder (2)\classified-build-1-11-11-aboutuspanag\QuickClassified\bin\QuickClassified.dll
+F:\New folder (2)\classified-build-1-11-11-aboutuspanag\QuickClassified\bin\QuickClassified.pdb
+F:\New folder (2)\classified-build-1-11-11-aboutuspanag\QuickClassified\bin\MSCaptcha.dll
+F:\New folder (2)\classified-build-1-11-11-aboutuspanag\QuickClassified\bin\MSCaptcha.xml
+F:\New folder (2)\classified-build-1-11-11-aboutuspanag\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+F:\New folder (2)\classified-build-1-11-11-aboutuspanag\QuickClassified\obj\Debug\QuickClassified.dll
+F:\New folder (2)\classified-build-1-11-11-aboutuspanag\QuickClassified\obj\Debug\QuickClassified.pdb
+F:\classified-build-1-11-11-aboutuspanag\QuickClassified\bin\QuickClassified.dll
+F:\classified-build-1-11-11-aboutuspanag\QuickClassified\bin\QuickClassified.pdb
+F:\classified-build-1-11-11-aboutuspanag\QuickClassified\bin\MSCaptcha.xml
+F:\classified-build-1-11-11-aboutuspanag\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+F:\classified-build-1-11-11-aboutuspanag\QuickClassified\obj\Debug\QuickClassified.dll
+F:\classified-build-1-11-11-aboutuspanag\QuickClassified\obj\Debug\QuickClassified.pdb
+F:\classified-build-1-11-11-Myprofile\QuickClassified\bin\QuickClassified.dll
+F:\classified-build-1-11-11-Myprofile\QuickClassified\bin\QuickClassified.pdb
+F:\classified-build-1-11-11-Myprofile\QuickClassified\bin\MSCaptcha.xml
+F:\classified-build-1-11-11-Myprofile\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+F:\classified-build-1-11-11-Myprofile\QuickClassified\obj\Debug\QuickClassified.dll
+F:\classified-build-1-11-11-Myprofile\QuickClassified\obj\Debug\QuickClassified.pdb
+F:\classified-build-1-11-11-Myads\QuickClassified\bin\QuickClassified.dll
+F:\classified-build-1-11-11-Myads\QuickClassified\bin\QuickClassified.pdb
+F:\classified-build-1-11-11-Myads\QuickClassified\bin\MSCaptcha.xml
+F:\classified-build-1-11-11-Myads\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+F:\classified-build-1-11-11-Myads\QuickClassified\obj\Debug\QuickClassified.dll
+F:\classified-build-1-11-11-Myads\QuickClassified\obj\Debug\QuickClassified.pdb
+F:\classified-build-1-11-11-postad-allignment\QuickClassified\bin\QuickClassified.dll
+F:\classified-build-1-11-11-postad-allignment\QuickClassified\bin\QuickClassified.pdb
+F:\classified-build-1-11-11-postad-allignment\QuickClassified\bin\MSCaptcha.xml
+F:\classified-build-1-11-11-postad-allignment\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+F:\classified-build-1-11-11-postad-allignment\QuickClassified\obj\Debug\QuickClassified.dll
+F:\classified-build-1-11-11-postad-allignment\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\144-bscs-09\Desktop\classified-build-1-11-11-postad-allignment\QuickClassified\bin\QuickClassified.dll
+C:\Users\144-bscs-09\Desktop\classified-build-1-11-11-postad-allignment\QuickClassified\bin\QuickClassified.pdb
+C:\Users\144-bscs-09\Desktop\classified-build-1-11-11-postad-allignment\QuickClassified\bin\MSCaptcha.xml
+C:\Users\144-bscs-09\Desktop\classified-build-1-11-11-postad-allignment\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\144-bscs-09\Desktop\classified-build-1-11-11-postad-allignment\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\144-bscs-09\Desktop\classified-build-1-11-11-postad-allignment\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\144-bscs-09\Desktop\classified-build-1-11-11-postad-allignment - Copy\QuickClassified\bin\QuickClassified.dll
+C:\Users\144-bscs-09\Desktop\classified-build-1-11-11-postad-allignment - Copy\QuickClassified\bin\QuickClassified.pdb
+C:\Users\144-bscs-09\Desktop\classified-build-1-11-11-postad-allignment - Copy\QuickClassified\bin\MSCaptcha.xml
+C:\Users\144-bscs-09\Desktop\classified-build-1-11-11-postad-allignment - Copy\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\144-bscs-09\Desktop\classified-build-1-11-11-postad-allignment - Copy\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\144-bscs-09\Desktop\classified-build-1-11-11-postad-allignment - Copy\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\120-bscs-09\Desktop\classified-build-1-11-11-postad-allignment - Copy\QuickClassified\bin\QuickClassified.dll
+C:\Users\120-bscs-09\Desktop\classified-build-1-11-11-postad-allignment - Copy\QuickClassified\bin\QuickClassified.pdb
+C:\Users\120-bscs-09\Desktop\classified-build-1-11-11-postad-allignment - Copy\QuickClassified\bin\MSCaptcha.xml
+C:\Users\120-bscs-09\Desktop\classified-build-1-11-11-postad-allignment - Copy\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\120-bscs-09\Desktop\classified-build-1-11-11-postad-allignment - Copy\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\120-bscs-09\Desktop\classified-build-1-11-11-postad-allignment - Copy\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\120-bscs-09\Desktop\29-11-2011\classified-build-1-11-11-postad-allignment - Copy\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\120-bscs-09\Desktop\29-11-2011\classified-build-1-11-11-postad-allignment - Copy\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\120-bscs-09\Desktop\29-11-2011\classified-build-1-11-11-postad-allignment - Copy\QuickClassified\bin\QuickClassified.dll
+C:\Users\120-bscs-09\Desktop\29-11-2011\classified-build-1-11-11-postad-allignment - Copy\QuickClassified\bin\QuickClassified.pdb
+C:\Users\120-bscs-09\Desktop\29-11-2011\classified-build-1-11-11-postad-allignment - Copy\QuickClassified\bin\MSCaptcha.xml
+C:\Users\120-bscs-09\Desktop\29-11-2011\classified-build-1-11-11-postad-allignment - Copy\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\Admin\Desktop\waqas\classified-build-30-11-11-postad-allignment - Copy\QuickClassified\bin\QuickClassified.dll
+C:\Users\Admin\Desktop\waqas\classified-build-30-11-11-postad-allignment - Copy\QuickClassified\bin\QuickClassified.pdb
+C:\Users\Admin\Desktop\waqas\classified-build-30-11-11-postad-allignment - Copy\QuickClassified\bin\MSCaptcha.xml
+C:\Users\Admin\Desktop\waqas\classified-build-30-11-11-postad-allignment - Copy\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\waqas\classified-build-30-11-11-postad-allignment - Copy\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\Admin\Desktop\waqas\classified-build-30-11-11-postad-allignment - Copy\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\Admin\Desktop\waqas\classified-build-10-12-11-postad-allignment - Copy\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\waqas\classified-build-10-12-11-postad-allignment - Copy\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\120-bscs-09\Desktop\classified-build-10-12-11-complte\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\120-bscs-09\Desktop\classified-build-10-12-11-complte\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\120-bscs-09\Desktop\classified-build-10-12-11-complte\QuickClassified\bin\QuickClassified.dll
+C:\Users\120-bscs-09\Desktop\classified-build-10-12-11-complte\QuickClassified\bin\QuickClassified.pdb
+C:\Users\120-bscs-09\Desktop\classified-build-10-12-11-complte\QuickClassified\bin\MSCaptcha.xml
+C:\Users\120-bscs-09\Desktop\classified-build-10-12-11-complte\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\142-bscs-09\Desktop\classified-build-12-12-11-complte\QuickClassified\bin\QuickClassified.dll
+C:\Users\142-bscs-09\Desktop\classified-build-12-12-11-complte\QuickClassified\bin\QuickClassified.pdb
+C:\Users\142-bscs-09\Desktop\classified-build-12-12-11-complte\QuickClassified\bin\MSCaptcha.xml
+C:\Users\142-bscs-09\Desktop\classified-build-12-12-11-complte\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\142-bscs-09\Desktop\classified-build-12-12-11-complte\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\142-bscs-09\Desktop\classified-build-12-12-11-complte\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\142-bscs-09\Desktop\classified-build-14-12-11-complete\QuickClassified\bin\QuickClassified.dll
+C:\Users\142-bscs-09\Desktop\classified-build-14-12-11-complete\QuickClassified\bin\QuickClassified.pdb
+C:\Users\142-bscs-09\Desktop\classified-build-14-12-11-complete\QuickClassified\bin\MSCaptcha.xml
+C:\Users\142-bscs-09\Desktop\classified-build-14-12-11-complete\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\142-bscs-09\Desktop\classified-build-14-12-11-complete\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\142-bscs-09\Desktop\classified-build-14-12-11-complete\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\142-bscs-09\Desktop\classified-build-15-12-11-complete\QuickClassified\bin\QuickClassified.dll
+C:\Users\142-bscs-09\Desktop\classified-build-15-12-11-complete\QuickClassified\bin\QuickClassified.pdb
+C:\Users\142-bscs-09\Desktop\classified-build-15-12-11-complete\QuickClassified\bin\MSCaptcha.xml
+C:\Users\142-bscs-09\Desktop\classified-build-15-12-11-complete\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\142-bscs-09\Desktop\classified-build-15-12-11-complete\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\142-bscs-09\Desktop\classified-build-15-12-11-complete\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\142-bscs-09\Desktop\classified-build 22-12-11-complete\QuickClassified\bin\QuickClassified.dll
+C:\Users\142-bscs-09\Desktop\classified-build 22-12-11-complete\QuickClassified\bin\QuickClassified.pdb
+C:\Users\142-bscs-09\Desktop\classified-build 22-12-11-complete\QuickClassified\bin\MSCaptcha.xml
+C:\Users\142-bscs-09\Desktop\classified-build 22-12-11-complete\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\142-bscs-09\Desktop\classified-build 22-12-11-complete\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\142-bscs-09\Desktop\classified-build 22-12-11-complete\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\142-bscs-09\Desktop\classified-build 26-12-11-complete\QuickClassified\bin\QuickClassified.dll
+C:\Users\142-bscs-09\Desktop\classified-build 26-12-11-complete\QuickClassified\bin\QuickClassified.pdb
+C:\Users\142-bscs-09\Desktop\classified-build 26-12-11-complete\QuickClassified\bin\MSCaptcha.xml
+C:\Users\142-bscs-09\Desktop\classified-build 26-12-11-complete\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\142-bscs-09\Desktop\classified-build 26-12-11-complete\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\142-bscs-09\Desktop\classified-build 26-12-11-complete\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\142-bscs-09\Desktop\classified-build 29-12-11-complete\QuickClassified\bin\QuickClassified.dll
+C:\Users\142-bscs-09\Desktop\classified-build 29-12-11-complete\QuickClassified\bin\QuickClassified.pdb
+C:\Users\142-bscs-09\Desktop\classified-build 29-12-11-complete\QuickClassified\bin\MSCaptcha.xml
+C:\Users\142-bscs-09\Desktop\classified-build 29-12-11-complete\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\142-bscs-09\Desktop\classified-build 29-12-11-complete\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\142-bscs-09\Desktop\classified-build 29-12-11-complete\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\142-bscs-09\Desktop\classified-build 4-1-12-complete\QuickClassified\bin\QuickClassified.dll
+C:\Users\142-bscs-09\Desktop\classified-build 4-1-12-complete\QuickClassified\bin\QuickClassified.pdb
+C:\Users\142-bscs-09\Desktop\classified-build 4-1-12-complete\QuickClassified\bin\MSCaptcha.xml
+C:\Users\142-bscs-09\Desktop\classified-build 4-1-12-complete\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\142-bscs-09\Desktop\classified-build 4-1-12-complete\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\142-bscs-09\Desktop\classified-build 4-1-12-complete\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\144-bscs-09\Desktop\classified-build 4-1-12-complete\QuickClassified\bin\QuickClassified.dll
+C:\Users\144-bscs-09\Desktop\classified-build 4-1-12-complete\QuickClassified\bin\QuickClassified.pdb
+C:\Users\144-bscs-09\Desktop\classified-build 4-1-12-complete\QuickClassified\bin\MSCaptcha.xml
+C:\Users\144-bscs-09\Desktop\classified-build 4-1-12-complete\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\144-bscs-09\Desktop\classified-build 4-1-12-complete\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\144-bscs-09\Desktop\classified-build 4-1-12-complete\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\142-bscs-09\Desktop\classified-build 5-1-12-complete\QuickClassified\bin\QuickClassified.dll
+C:\Users\142-bscs-09\Desktop\classified-build 5-1-12-complete\QuickClassified\bin\QuickClassified.pdb
+C:\Users\142-bscs-09\Desktop\classified-build 5-1-12-complete\QuickClassified\bin\MSCaptcha.xml
+C:\Users\142-bscs-09\Desktop\classified-build 5-1-12-complete\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\142-bscs-09\Desktop\classified-build 5-1-12-complete\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\142-bscs-09\Desktop\classified-build 5-1-12-complete\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\142-bscs-09\Desktop\classified-build 15-2-12-complete\QuickClassified\bin\QuickClassified.dll
+C:\Users\142-bscs-09\Desktop\classified-build 15-2-12-complete\QuickClassified\bin\QuickClassified.pdb
+C:\Users\142-bscs-09\Desktop\classified-build 15-2-12-complete\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\142-bscs-09\Desktop\classified-build 15-2-12-complete\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\142-bscs-09\Desktop\classified-build 15-2-12-complete\QuickClassified\obj\Debug\QuickClassified.pdb
+D:\website\asp.net\classified final -build 15-2-12-complete without captcha\QuickClassified\bin\QuickClassified.dll
+D:\website\asp.net\classified final -build 15-2-12-complete without captcha\QuickClassified\bin\QuickClassified.pdb
+D:\website\asp.net\classified final -build 15-2-12-complete without captcha\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+D:\website\asp.net\classified final -build 15-2-12-complete without captcha\QuickClassified\obj\Debug\QuickClassified.dll
+D:\website\asp.net\classified final -build 15-2-12-complete without captcha\QuickClassified\obj\Debug\QuickClassified.pdb
+D:\website\asp.net\classified final -build 22-7-12-complete\QuickClassified\bin\QuickClassified.dll
+D:\website\asp.net\classified final -build 22-7-12-complete\QuickClassified\bin\QuickClassified.pdb
+D:\website\asp.net\classified final -build 22-7-12-complete\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+D:\website\asp.net\classified final -build 22-7-12-complete\QuickClassified\obj\Debug\QuickClassified.dll
+D:\website\asp.net\classified final -build 22-7-12-complete\QuickClassified\obj\Debug\QuickClassified.pdb
+D:\website\asp.net\classified final -build 10-08-12-complete\QuickClassified\bin\QuickClassified.dll
+D:\website\asp.net\classified final -build 10-08-12-complete\QuickClassified\bin\QuickClassified.pdb
+D:\website\asp.net\classified final -build 10-08-12-complete\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+D:\website\asp.net\classified final -build 10-08-12-complete\QuickClassified\obj\Debug\QuickClassified.dll
+D:\website\asp.net\classified final -build 10-08-12-complete\QuickClassified\obj\Debug\QuickClassified.pdb
+D:\website\asp.net\classified final -build 11-08-12-complete\QuickClassified\bin\QuickClassified.dll
+D:\website\asp.net\classified final -build 11-08-12-complete\QuickClassified\bin\QuickClassified.pdb
+D:\website\asp.net\classified final -build 11-08-12-complete\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+D:\website\asp.net\classified final -build 11-08-12-complete\QuickClassified\obj\Debug\QuickClassified.dll
+D:\website\asp.net\classified final -build 11-08-12-complete\QuickClassified\obj\Debug\QuickClassified.pdb
+D:\website\asp.net\classified final -build 14-08-12-complete\QuickClassified\bin\QuickClassified.dll
+D:\website\asp.net\classified final -build 14-08-12-complete\QuickClassified\bin\QuickClassified.pdb
+D:\website\asp.net\classified final -build 14-08-12-complete\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+D:\website\asp.net\classified final -build 14-08-12-complete\QuickClassified\obj\Debug\QuickClassified.dll
+D:\website\asp.net\classified final -build 14-08-12-complete\QuickClassified\obj\Debug\QuickClassified.pdb
+D:\website\asp.net\classified final -build 27-08-12-complete\QuickClassified\bin\QuickClassified.dll
+D:\website\asp.net\classified final -build 27-08-12-complete\QuickClassified\bin\QuickClassified.pdb
+D:\website\asp.net\classified final -build 27-08-12-complete\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+D:\website\asp.net\classified final -build 27-08-12-complete\QuickClassified\obj\Debug\QuickClassified.dll
+D:\website\asp.net\classified final -build 27-08-12-complete\QuickClassified\obj\Debug\QuickClassified.pdb
+D:\website\asp.net\classified final -build 27-08-12-complete\QuickClassified\bin\AjaxControlToolkit.pdb
+D:\website\asp.net\classified final -build 27-08-12-complete\QuickClassified\bin\ar\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 27-08-12-complete\QuickClassified\bin\cs\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 27-08-12-complete\QuickClassified\bin\de\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 27-08-12-complete\QuickClassified\bin\es\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 27-08-12-complete\QuickClassified\bin\fr\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 27-08-12-complete\QuickClassified\bin\he\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 27-08-12-complete\QuickClassified\bin\hi\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 27-08-12-complete\QuickClassified\bin\it\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 27-08-12-complete\QuickClassified\bin\ja\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 27-08-12-complete\QuickClassified\bin\ko\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 27-08-12-complete\QuickClassified\bin\nl\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 27-08-12-complete\QuickClassified\bin\pt\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 27-08-12-complete\QuickClassified\bin\ru\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 27-08-12-complete\QuickClassified\bin\tr-TR\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 27-08-12-complete\QuickClassified\bin\zh-CHS\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 27-08-12-complete\QuickClassified\bin\zh-CHT\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 05-09-12-complete with half admin panel\QuickClassified\bin\QuickClassified.dll
+D:\website\asp.net\classified final -build 05-09-12-complete with half admin panel\QuickClassified\bin\QuickClassified.pdb
+D:\website\asp.net\classified final -build 05-09-12-complete with half admin panel\QuickClassified\bin\AjaxControlToolkit.pdb
+D:\website\asp.net\classified final -build 05-09-12-complete with half admin panel\QuickClassified\bin\ar\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 05-09-12-complete with half admin panel\QuickClassified\bin\cs\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 05-09-12-complete with half admin panel\QuickClassified\bin\de\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 05-09-12-complete with half admin panel\QuickClassified\bin\es\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 05-09-12-complete with half admin panel\QuickClassified\bin\fr\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 05-09-12-complete with half admin panel\QuickClassified\bin\he\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 05-09-12-complete with half admin panel\QuickClassified\bin\hi\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 05-09-12-complete with half admin panel\QuickClassified\bin\it\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 05-09-12-complete with half admin panel\QuickClassified\bin\ja\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 05-09-12-complete with half admin panel\QuickClassified\bin\ko\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 05-09-12-complete with half admin panel\QuickClassified\bin\nl\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 05-09-12-complete with half admin panel\QuickClassified\bin\pt\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 05-09-12-complete with half admin panel\QuickClassified\bin\ru\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 05-09-12-complete with half admin panel\QuickClassified\bin\tr-TR\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 05-09-12-complete with half admin panel\QuickClassified\bin\zh-CHS\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 05-09-12-complete with half admin panel\QuickClassified\bin\zh-CHT\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 05-09-12-complete with half admin panel\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+D:\website\asp.net\classified final -build 05-09-12-complete with half admin panel\QuickClassified\obj\Debug\QuickClassified.dll
+D:\website\asp.net\classified final -build 05-09-12-complete with half admin panel\QuickClassified\obj\Debug\QuickClassified.pdb
+D:\website\asp.net\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\QuickClassified.dll
+D:\website\asp.net\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\QuickClassified.pdb
+D:\website\asp.net\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\AjaxControlToolkit.pdb
+D:\website\asp.net\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\ar\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\cs\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\de\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\es\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\fr\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\he\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\hi\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\it\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\ja\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\ko\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\nl\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\pt\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\ru\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\tr-TR\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\zh-CHS\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\zh-CHT\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 16-09-12-complete with half admin panel\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+D:\website\asp.net\classified final -build 16-09-12-complete with half admin panel\QuickClassified\obj\Debug\QuickClassified.dll
+D:\website\asp.net\classified final -build 16-09-12-complete with half admin panel\QuickClassified\obj\Debug\QuickClassified.pdb
+C:\Users\mohsin\Desktop\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\QuickClassified.dll
+C:\Users\mohsin\Desktop\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\QuickClassified.pdb
+C:\Users\mohsin\Desktop\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\AjaxControlToolkit.pdb
+C:\Users\mohsin\Desktop\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\mohsin\Desktop\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\mohsin\Desktop\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\mohsin\Desktop\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\mohsin\Desktop\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\mohsin\Desktop\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\mohsin\Desktop\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\mohsin\Desktop\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\mohsin\Desktop\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\mohsin\Desktop\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\mohsin\Desktop\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\mohsin\Desktop\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\mohsin\Desktop\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\mohsin\Desktop\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\mohsin\Desktop\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\mohsin\Desktop\classified final -build 16-09-12-complete with half admin panel\QuickClassified\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\mohsin\Desktop\classified final -build 16-09-12-complete with half admin panel\QuickClassified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mohsin\Desktop\classified final -build 16-09-12-complete with half admin panel\QuickClassified\obj\Debug\QuickClassified.dll
+C:\Users\mohsin\Desktop\classified final -build 16-09-12-complete with half admin panel\QuickClassified\obj\Debug\QuickClassified.pdb
+D:\website\asp.net\classified final -build 01-10-12-complete with half admin panel\QuickClassified\bin\QuickClassified.dll
+D:\website\asp.net\classified final -build 01-10-12-complete with half admin panel\QuickClassified\bin\QuickClassified.pdb
+D:\website\asp.net\classified final -build 01-10-12-complete with half admin panel\QuickClassified\bin\AjaxControlToolkit.pdb
+D:\website\asp.net\classified final -build 01-10-12-complete with half admin panel\QuickClassified\bin\ar\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 01-10-12-complete with half admin panel\QuickClassified\bin\cs\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 01-10-12-complete with half admin panel\QuickClassified\bin\de\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 01-10-12-complete with half admin panel\QuickClassified\bin\es\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 01-10-12-complete with half admin panel\QuickClassified\bin\fr\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 01-10-12-complete with half admin panel\QuickClassified\bin\he\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 01-10-12-complete with half admin panel\QuickClassified\bin\hi\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 01-10-12-complete with half admin panel\QuickClassified\bin\it\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 01-10-12-complete with half admin panel\QuickClassified\bin\ja\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 01-10-12-complete with half admin panel\QuickClassified\bin\ko\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 01-10-12-complete with half admin panel\QuickClassified\bin\nl\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 01-10-12-complete with half admin panel\QuickClassified\bin\pt\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 01-10-12-complete with half admin panel\QuickClassified\bin\ru\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 01-10-12-complete with half admin panel\QuickClassified\bin\tr-TR\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 01-10-12-complete with half admin panel\QuickClassified\bin\zh-CHS\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 01-10-12-complete with half admin panel\QuickClassified\bin\zh-CHT\AjaxControlToolkit.resources.dll
+D:\website\asp.net\classified final -build 01-10-12-complete with half admin panel\QuickClassified\obj\Debug\QuickClassified.dll
+D:\website\asp.net\classified final -build 01-10-12-complete with half admin panel\QuickClassified\obj\Debug\QuickClassified.pdb
+D:\website\asp.net\classified final -build 01-10-12-complete with half admin panel\QuickClassified\obj\Debug\QuickClassified.csprojResolveAssemblyReference.cache
+D:\Mohsin\Personal Data\Moderate Classified\QuickClassified\bin\QuickClassified.dll
+D:\Mohsin\Personal Data\Moderate Classified\QuickClassified\bin\QuickClassified.pdb
+D:\Mohsin\Personal Data\Moderate Classified\QuickClassified\bin\AjaxControlToolkit.pdb
+D:\Mohsin\Personal Data\Moderate Classified\QuickClassified\bin\ar\AjaxControlToolkit.resources.dll
+D:\Mohsin\Personal Data\Moderate Classified\QuickClassified\bin\cs\AjaxControlToolkit.resources.dll
+D:\Mohsin\Personal Data\Moderate Classified\QuickClassified\bin\de\AjaxControlToolkit.resources.dll
+D:\Mohsin\Personal Data\Moderate Classified\QuickClassified\bin\es\AjaxControlToolkit.resources.dll
+D:\Mohsin\Personal Data\Moderate Classified\QuickClassified\bin\fr\AjaxControlToolkit.resources.dll
+D:\Mohsin\Personal Data\Moderate Classified\QuickClassified\bin\he\AjaxControlToolkit.resources.dll
+D:\Mohsin\Personal Data\Moderate Classified\QuickClassified\bin\hi\AjaxControlToolkit.resources.dll
+D:\Mohsin\Personal Data\Moderate Classified\QuickClassified\bin\it\AjaxControlToolkit.resources.dll
+D:\Mohsin\Personal Data\Moderate Classified\QuickClassified\bin\ja\AjaxControlToolkit.resources.dll
+D:\Mohsin\Personal Data\Moderate Classified\QuickClassified\bin\ko\AjaxControlToolkit.resources.dll
+D:\Mohsin\Personal Data\Moderate Classified\QuickClassified\bin\nl\AjaxControlToolkit.resources.dll
+D:\Mohsin\Personal Data\Moderate Classified\QuickClassified\bin\pt\AjaxControlToolkit.resources.dll
+D:\Mohsin\Personal Data\Moderate Classified\QuickClassified\bin\ru\AjaxControlToolkit.resources.dll
+D:\Mohsin\Personal Data\Moderate Classified\QuickClassified\bin\tr-TR\AjaxControlToolkit.resources.dll
+D:\Mohsin\Personal Data\Moderate Classified\QuickClassified\bin\zh-CHS\AjaxControlToolkit.resources.dll
+D:\Mohsin\Personal Data\Moderate Classified\QuickClassified\bin\zh-CHT\AjaxControlToolkit.resources.dll
+D:\Mohsin\Personal Data\Moderate Classified\QuickClassified\obj\Debug\QuickClassified.csprojResolveAssemblyReference.cache
+D:\Mohsin\Personal Data\Moderate Classified\QuickClassified\obj\Debug\QuickClassified.dll
+D:\Mohsin\Personal Data\Moderate Classified\QuickClassified\obj\Debug\QuickClassified.pdb

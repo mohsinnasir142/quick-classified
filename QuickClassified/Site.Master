@@ -1,0 +1,869 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="QuickClassified.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="robots" content="all" />
+<title>Quick Classified</title>
+<link href="~/Styles/accordin-css/dcaccordion.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="Styles/slider/imageScroller.css"/>
+<link rel="stylesheet" type="text/css" href="Styles/news/NewsJq.css"/>
+<link rel="stylesheet" type="text/css" href="Styles/slider/fullImages.css"/>
+
+
+<link rel="stylesheet" href="~/Styles/dragdrop/jquery.ui.all.css" type="text/css"  />
+<link rel="stylesheet" href="~/Styles/dragdrop/demos.css" type="text/css" />
+
+    
+    <script src="Scripts/dragdrop/jquery-1.8.2.js" type="text/javascript"></script> 
+	<script src="Scripts/dragdrop/jquery.ui.core.js" type="text/javascript"></script>
+	<script src="Scripts/dragdrop/jquery.ui.widget.js" type="text/javascript"></script>
+	<script src="Scripts/dragdrop/jquery.ui.mouse.js" type="text/javascript"></script>
+	<script src="Scripts/dragdrop/jquery.ui.sortable.js" type="text/javascript"></script>
+    <script src="Scripts/accordin-js/jquery.cookie.js"></script>
+
+   
+    <script src="Scripts/accordin-js/jquery.dcjqaccordion.2.7.min.js"></script>
+    <script src="Scripts/accordin-js/jquery.hoverIntent.minified.js"></script>
+
+
+
+<script type='text/javascript' src="Scripts/newsScripts/fullimagz.js"></script>
+<script type='text/javascript' src="Scripts/newsScripts/newsScript.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#accordion-2').dcAccordion({
+            eventType: 'click',
+            autoClose: false,
+            saveState: true,
+            disableLink: true,
+            speed: 'fast',
+            classActive: 'test',
+            showCount: true
+        });
+    });
+$(function () {
+
+	        //remove js-disabled class
+	        $("#viewer").removeClass("js-disabled");
+
+	        //create new container for images
+	        $("<div>").attr("id", "container").css({ position: "absolute" }).width($(".wrapper").length * 170).height(170).appendTo("div#viewer");
+
+	        //add images to container
+	        $(".wrapper").each(function () {
+	            $(this).appendTo("div#container");
+	        });
+
+	        //work out duration of anim based on number of images (1 second for each image)
+	        var duration = $(".wrapper").length * 1000;
+
+	        //store speed for later (distance / time)
+	        var speed = (parseInt($("div#container").width()) + parseInt($("div#viewer").width())) / duration;
+
+	        //set direction
+	        var direction = "rtl";
+
+	        //set initial position and class based on direction
+	        (direction == "rtl") ? $("div#container").css("left", $("div#viewer").width()).addClass("rtl") : $("div#container").css("left", 0 - $("div#container").width()).addClass("ltr");
+
+	        //animator function
+	        var animator = function (el, time, dir) {
+
+	            //which direction to scroll
+	            if (dir == "rtl") {
+
+	                //add direction class
+	                el.removeClass("ltr").addClass("rtl");
+
+	                //animate the el
+	                el.animate({ left: "-" + el.width() + "px" }, time, "linear", function () {
+
+	                    //reset container position
+	                    $(this).css({ left: $("div#imageScroller").width(), right: "" });
+
+	                    //restart animation
+	                    animator($(this), duration, "rtl");
+
+	                    //hide controls if visible
+	                    ($("div#controls").length > 0) ? $("div#controls").slideUp("slow").remove() : null;
+
+	                });
+	            } else {
+
+	                //add direction class
+	                el.removeClass("rtl").addClass("ltr");
+
+	                //animate the el
+	                el.animate({ left: $("div#viewer").width() + "px" }, time, "linear", function () {
+
+	                    //reset container position
+	                    $(this).css({ left: 0 - $("div#container").width() });
+
+	                    //restart animation
+	                    animator($(this), duration, "ltr");
+
+	                    //hide controls if visible
+	                    ($("div#controls").length > 0) ? $("div#controls").slideUp("slow").remove() : null;
+	                });
+	            }
+	        }
+
+	        //start anim
+	        animator($("div#container"), duration, direction);
+
+	        //pause on mouseover
+	        $("a.wrapper").live("mouseover", function () {
+
+	            //stop anim
+	            $("div#container").stop(true);
+
+	            //show controls
+	            ($("div#controls").length == 0) ? $("<div>").attr("id", "controls").appendTo("div#outerContainer").css({ opacity: 0.7 }).slideDown("slow") : null;
+	            ($("a#rtl").length == 0) ? $("<a>").attr({ id: "rtl", href: "#", title: "rtl" }).appendTo("#controls") : null;
+	            ($("a#ltr").length == 0) ? $("<a>").attr({ id: "ltr", href: "#", title: "ltr" }).appendTo("#controls") : null;
+
+	            //variable to hold trigger element
+	            var title = $(this).attr("title");
+
+	            //add p if doesn't exist, update it if it does
+	            ($("p#title").length == 0) ? $("<p>").attr("id", "title").text(title).appendTo("div#controls") : $("p#title").text(title);
+	        });
+
+	        //restart on mouseout
+	        $("a.wrapper").live("mouseout", function (e) {
+
+	            //hide controls if not hovering on them
+	            (e.relatedTarget == null) ? null : (e.relatedTarget.id != "controls") ? $("div#controls").slideUp("slow").remove() : null;
+
+	            //work out total travel distance
+	            var totalDistance = parseInt($("div#container").width()) + parseInt($("div#viewer").width());
+
+	            //work out distance left to travel
+	            var distanceLeft = ($("div#container").hasClass("ltr")) ? totalDistance - (parseInt($("div#container").css("left")) + parseInt($("div#container").width())) : totalDistance - (parseInt($("div#viewer").width()) - (parseInt($("div#container").css("left"))));
+
+	            //new duration is distance left / speed)
+	            var newDuration = distanceLeft / speed;
+
+	            //restart anim
+	            animator($("div#container"), newDuration, $("div#container").attr("class"));
+
+	        });
+
+	        //handler for ltr button
+	        $("#ltr").live("click", function () {
+
+	            //stop anim
+	            $("div#container").stop(true);
+
+	            //swap class names
+	            $("div#container").removeClass("rtl").addClass("ltr");
+
+	            //work out total travel distance
+	            var totalDistance = parseInt($("div#container").width()) + parseInt($("div#viewer").width());
+
+	            //work out remaining distance
+	            var distanceLeft = totalDistance - (parseInt($("div#container").css("left")) + parseInt($("div#container").width()));
+
+	            //new duration is distance left / speed)
+	            var newDuration = distanceLeft / speed;
+
+	            //restart anim
+	            animator($("div#container"), newDuration, "ltr");
+	        });
+
+	        //handler for rtl button
+	        $("#rtl").live("click", function () {
+
+	            //stop anim
+	            $("div#container").stop(true);
+
+	            //swap class names
+	            $("div#container").removeClass("ltr").addClass("rtl");
+
+	            //work out total travel distance
+	            var totalDistance = parseInt($("div#container").width()) + parseInt($("div#viewer").width());
+
+	            //work out remaining distance
+	            var distanceLeft = totalDistance - (parseInt($("div#viewer").width()) - (parseInt($("div#container").css("left"))));
+
+	            //new duration is distance left / speed)
+	            var newDuration = distanceLeft / speed;
+
+	            //restart anim
+	            animator($("div#container"), newDuration, "rtl");
+	        });
+});
+		</script>
+   
+
+
+
+<link href="~/Styles/accordin-css/skins/blue.css" rel="stylesheet" 
+        type="text/css" />
+<link href="~/Styles/accordin-css/skins/graphite.css" rel="stylesheet" 
+        type="text/css" />
+<link href="~/Styles/accordin-css/skins/grey.css" rel="stylesheet" 
+        type="text/css" />
+
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    
+
+
+
+
+    <style type="text/css">
+        .style1
+        {
+            width: 144px;
+            color:Black;
+        }
+        .style3
+        {
+           color:Black;
+            width: 93px;
+        }
+        .style4
+        {
+            width: 75px;
+            color:Black;
+            
+        }
+        .style5
+        {
+            width: 162px;
+            
+            
+        }
+        .style9
+        {
+            width: 720px;
+            height: 60px;
+        }
+        .style10
+        {
+            width: 60px;
+        }
+        .style11
+        {
+            width: 162px;
+            height: 19px;
+            color: #FFFFFF;
+        }
+        .style27
+        {
+            width: 144px;
+           color:#0172BB;
+        }
+        .style28
+        {
+            width: 84px;
+            color: #FFFFFF;
+        }
+        .style29
+        {
+            width: 162px;
+            color: #FFFFFF;
+        }
+        .headingFL
+        {
+            
+            
+            }
+        .style30
+        {
+            background-color: #FFFFFF;
+        }
+        </style>
+    
+
+
+
+
+</head>
+<body>
+    <form runat="server">
+    
+    <div class="page">
+    <div class="header">
+            <%--<div class="title">
+                <h1>
+                    Quick Classified</h1>
+            </div>--%>
+            <div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
+
+                        [ <a href="~/Account/Register.aspx" ID="A1" runat="server">Register</a> ]
+                    </AnonymousTemplate> 
+                    <LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="adLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/default.aspx"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>
+            
+        </div>
+        <div class="clear hideSkiplink">
+            
+
+
+
+
+            <asp:LoginView ID="LoginView1" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                       <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" 
+                    EnableViewState="False" IncludeStyleBlock="False" Orientation="Horizontal">
+                    <Items>
+                    
+                        <asp:MenuItem NavigateUrl="~/default.aspx" Text="Home">
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="News" Value="News"/>
+                        
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="About" Value="About"/>
+                        <asp:MenuItem NavigateUrl="~/Ads/users/postad.aspx" Text="Post Ad"/>
+                                                
+                    </Items>
+                </asp:Menu>
+                    </AnonymousTemplate> 
+                    
+                    <LoggedInTemplate>
+                      <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" 
+                    EnableViewState="False" IncludeStyleBlock="False" Orientation="Horizontal">
+                    <Items>
+                    
+                        <asp:MenuItem NavigateUrl="~/default.aspx" Text="Home">
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="News" Value="News"/>
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="About" Value="About"/>
+                        <asp:MenuItem NavigateUrl="~/Ads/users/postad.aspx" Text="Post Ad"/>
+                        <asp:MenuItem NavigateUrl="~/Ads/users/myprofile.aspx" Text="My Profile"/>
+                        <asp:MenuItem NavigateUrl="~/Ads/users/myads.aspx" Text="My Ads"/>
+                        <asp:MenuItem NavigateUrl="~/Account/ChangePassword.aspx" Text="Change Password"/>
+                        
+                    </Items>
+                </asp:Menu> 
+                    </LoggedInTemplate>
+
+                    <RoleGroups>
+                        <asp:RoleGroup Roles="admin">
+                        <ContentTemplate>
+                        
+                        <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" 
+                    EnableViewState="False" IncludeStyleBlock="False" Orientation="Horizontal">
+                    <Items>
+                    
+                        <asp:MenuItem NavigateUrl="~/default.aspx" Text="Home">
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="News" Value="News"/>
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="About" Value="About"/>
+                        <asp:MenuItem NavigateUrl="~/Ads/users/postad.aspx" Text="Post Ad"/>
+                        <asp:MenuItem NavigateUrl="~/Ads/users/myprofile.aspx" Text="My Profile"/>
+                        <asp:MenuItem NavigateUrl="~/Ads/users/myads.aspx" Text="My Ads"/>
+                        <asp:MenuItem NavigateUrl="~/Admin/adminCP.aspx" Text="Admin CP"/>
+                        <asp:MenuItem NavigateUrl="~/Account/ChangePassword.aspx" Text="Change Password"/>
+                        
+                    </Items>
+                </asp:Menu>
+                        
+                        </ContentTemplate>
+                        </asp:RoleGroup>
+                    </RoleGroups>
+
+                </asp:LoginView>
+
+
+
+            <!---
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" 
+                    EnableViewState="False" IncludeStyleBlock="False" Orientation="Horizontal">
+                    <Items>
+                    
+                        <asp:MenuItem NavigateUrl="~/Ads/view.aspx" Text="Home">
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="News" Value="News"/>
+                        
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="Profile" Value="Profile"/>
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="About" Value="About"/>
+                        <asp:MenuItem NavigateUrl="~/Ads/users/postad.aspx" Text="Post Ad"/>
+                        <asp:MenuItem NavigateUrl="~/Admin/controlPannel.aspx" Text="Admin CP"/>
+                        <asp:MenuItem NavigateUrl="~/Ads/users/myprofile.aspx" Text="My Profile"/>
+                        <asp:MenuItem NavigateUrl="~/Ads/users/myads.aspx" Text="My Ads"/>
+                        
+                    </Items>
+                </asp:Menu>
+
+            -->
+
+
+
+            </div>
+
+        <!----SEARCH PANNEL---->
+         <%--<div class="hovermenu" >--%>
+
+            <%-- <table class="style14">--%>
+
+                 <%--<tr>
+                     <td class="style26">
+                        <a href="#" class="style25">Autos</a></td>--%>
+                        <%--<ul>
+                       <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.dynamicdrive.com">Autos</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </li>
+                    &nbsp;--%><%-- <td class="style22">--%><%--<li> <a href="#" class="style25">Education</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--%>
+                     <%--<td class="style22">--%>
+                        <%--<li> <a href="#" class="style25">Electronics</a></li>--%>
+                    <%-- <td class="style22">--%>
+                        <%--<li> &nbsp;&nbsp;&nbsp;&nbsp; <a href="#" class="style25">Events</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--%>
+                     <%--<td class="style23">--%>
+                        <%--<li> <a href="#" class="style25">Home&nbsp; Appliances</a>&nbsp;&nbsp;--%>
+                     <%--<td class="style22">--%>
+                         <%--<li><a href="#" class="style25">Matrimonial</a></li>&nbsp;&nbsp;--%>
+                     <%--<td class="style22">--%>
+                        <%-- <li><a href="#" class="style25">Micellaneous</a></li>--%>
+                     <%--<td class="style22">--%>
+                       <%-- &nbsp;
+                        <li> <a href="#" class="style25">Real Estates</a></li>
+                    --%> <%--<td class="style24">--%>
+                   <%--     &nbsp;
+                        <li> <a href="#" class="style25">Services</a></li>
+                 </ul>--%>
+             <%--</table>--%>
+
+<%--</div>--%>
+
+   <div class="search" align="center">
+   <div class="SearchHeading" align="center">
+      <h3 style="color: #FFFFFF; height: 61px; width: 56px;"></h3></br></div>
+   
+<table align="center" class="style9">
+
+            <tr>
+                <td class="style27">
+                    SEARCH</td></br>
+                <span class="colr3">
+                <td class="style28">
+                    MIN PRICE</td>
+                <td class="style3">
+                    <span class="colr3">MAX PRICE</td>
+                </span>
+                <td class="style29">
+                    CITY</td>
+                <td class="style11">
+                    ITEM</span></td>
+                <td class="style10">
+                </td>
+            </tr>
+            <tr>
+                <td class="style1">
+                    <asp:TextBox ID="TextBox1" runat="server" Width="143px" BorderColor="#233951" 
+                        ForeColor="Black" Height="22px" BackColor="White" BorderStyle="Solid"></asp:TextBox>
+                </td>
+                <td class="style4">
+                    <asp:TextBox ID="TextBox2" runat="server" Width="80px" Height="21px" BorderColor="#243952" 
+                        ForeColor="Black" BackColor="White" BorderStyle="Solid"></asp:TextBox>
+                </td>
+                <td class="style3">
+                    <asp:TextBox ID="TextBox3" runat="server" Width="89px" Height="20px" BorderColor="#233850" 
+                        ForeColor="Black" BackColor="White" BorderStyle="Solid"   ></asp:TextBox>
+                </td>
+                <td class="style5">
+                    <asp:DropDownList ID="DropDownList1" runat="server" 
+                         Width="162px" Height="21px" DataSourceID="mastercitydatasource" 
+                        DataTextField="ad_city" DataValueField="ad_city" BackColor="White" 
+                        ForeColor="Black">
+                         <asp:ListItem>Select One</asp:ListItem>
+                                <asp:ListItem>Karachi</asp:ListItem>
+                                <asp:ListItem>Lahore</asp:ListItem>
+                                <asp:ListItem>Faisalabad</asp:ListItem>
+                                <asp:ListItem>Rawalpindi</asp:ListItem>
+                                <asp:ListItem>Multan</asp:ListItem>
+                                <asp:ListItem>Hyderabad</asp:ListItem>
+                                <asp:ListItem>Gujranwala</asp:ListItem>
+                                <asp:ListItem>Islamabad</asp:ListItem>
+                                <asp:ListItem>Quetta</asp:ListItem>
+                                <asp:ListItem>Bahawalpur</asp:ListItem>
+                                <asp:ListItem>Sargodha</asp:ListItem>
+                                <asp:ListItem>Sailkot</asp:ListItem>
+                                <asp:ListItem>Sukkur</asp:ListItem>
+                                <asp:ListItem>Larkana</asp:ListItem>
+                                <asp:ListItem>Shekhupura</asp:ListItem>
+                                <asp:ListItem>Jhang</asp:ListItem>
+                                <asp:ListItem>Gujrat</asp:ListItem>
+                                <asp:ListItem>Mardan</asp:ListItem>
+                                <asp:ListItem>Rahim Yar Khan</asp:ListItem>
+                                <asp:ListItem>Peshawa</asp:ListItem>
+                                <asp:ListItem>Muzaffarabad</asp:ListItem>
+                                <asp:ListItem>Mirpur</asp:ListItem>
+                                <asp:ListItem>Skardu</asp:ListItem>
+                                <asp:ListItem>Shandur</asp:ListItem>
+                                <asp:ListItem>Malakand</asp:ListItem>
+                                <asp:ListItem>Miran Shah</asp:ListItem>
+                                <asp:ListItem>Khyber</asp:ListItem>
+                                <asp:ListItem>North Waziristan</asp:ListItem>
+                                <asp:ListItem>South Waziristan</asp:ListItem>
+                                <asp:ListItem>Wana</asp:ListItem>
+                                <asp:ListItem>Abbottabad</asp:ListItem>
+                                <asp:ListItem>Bannu</asp:ListItem>
+                                <asp:ListItem>Batgram</asp:ListItem>
+                                <asp:ListItem>Chitral</asp:ListItem>
+                                <asp:ListItem>Dera Ismail Khan</asp:ListItem>
+                                <asp:ListItem>Swabi</asp:ListItem>
+                                <asp:ListItem>Swat</asp:ListItem>
+                                <asp:ListItem>ArifWala</asp:ListItem>
+                                <asp:ListItem>Bhalwal</asp:ListItem>
+                                <asp:ListItem>Bahawalnagar</asp:ListItem>
+                                <asp:ListItem>Burewala</asp:ListItem>
+                                <asp:ListItem>Chakwal</asp:ListItem>
+                                <asp:ListItem>Chiniot</asp:ListItem>
+                                <asp:ListItem>Daska</asp:ListItem>
+                                <asp:ListItem>Dera Ghazi Khan</asp:ListItem>
+                                <asp:ListItem>Hafizabad</asp:ListItem>
+                                <asp:ListItem>Haroonabad</asp:ListItem>
+                                <asp:ListItem>Hasilpur</asp:ListItem>
+                                <asp:ListItem>Jhelum</asp:ListItem>
+                                <asp:ListItem>Kamaila</asp:ListItem>
+                                <asp:ListItem>Khanewal</asp:ListItem>
+                                <asp:ListItem>Khushab</asp:ListItem>
+                                <asp:ListItem>Kamokey</asp:ListItem>
+                                <asp:ListItem>KotAddu</asp:ListItem>
+                                <asp:ListItem>Jauharabad</asp:ListItem>
+                                <asp:ListItem>Mianwali</asp:ListItem>
+                                
+                                <asp:ListItem>Mandi Bahauddin</asp:ListItem>
+                                <asp:ListItem>Muree</asp:ListItem>
+                                <asp:ListItem>Muridke</asp:ListItem>
+                                <asp:ListItem>Muzaffargarh</asp:ListItem>
+                                <asp:ListItem>Narowal</asp:ListItem>
+                                <asp:ListItem>Okara</asp:ListItem>
+                                <asp:ListItem>Pak Pattan</asp:ListItem>
+                                <asp:ListItem>Pattoki</asp:ListItem>
+                                <asp:ListItem>Qila Didar Singh</asp:ListItem>
+                                <asp:ListItem>Raiwind</asp:ListItem>
+                                <asp:ListItem>Sadiqabad</asp:ListItem>
+                                <asp:ListItem>Sahiwal</asp:ListItem>
+                                <asp:ListItem>Taxila</asp:ListItem>
+                                <asp:ListItem>Toba Tek Singh</asp:ListItem>
+                                <asp:ListItem>Vehari</asp:ListItem>
+                                <asp:ListItem>Wah</asp:ListItem>
+                                <asp:ListItem>Wazirabad</asp:ListItem>
+                                <asp:ListItem>Baden</asp:ListItem>
+                                <asp:ListItem>Ghotki</asp:ListItem>
+                                <asp:ListItem>Jamshoro</asp:ListItem>
+                                <asp:ListItem>Nazimabad</asp:ListItem>
+                    </asp:DropDownList>
+                    <asp:SqlDataSource ID="mastercitydatasource" runat="server" 
+                        ConnectionString="<%$ ConnectionStrings:ConnectionString %>" 
+                        SelectCommand="SELECT DISTINCT [ad_city] FROM [ad_city_location]">
+                    </asp:SqlDataSource>
+                </td>
+                <td class="style5">
+                    <asp:DropDownList ID="DropDownList2" runat="server" 
+                        Height="21px" Width="150px" DataSourceID="masteritemnamedatasource" 
+                        DataTextField="item_name" DataValueField="item_name" BackColor="White" >
+                        <asp:ListItem></asp:ListItem>
+                    </asp:DropDownList>
+                    <asp:SqlDataSource ID="masteritemnamedatasource" runat="server" 
+                        ConnectionString="<%$ ConnectionStrings:ConnectionString %>" 
+                        SelectCommand="SELECT DISTINCT [item_name] FROM [aditem]">
+                    </asp:SqlDataSource>
+                </td>
+                <td class="style10">
+                    <asp:Button CssClass="SearchButton" ID="Button1" runat="server" 
+                        onclick="Button1_Click" Width="60px" Height="25px"   />
+                </td>
+            </tr>
+            <tr>
+                <td class="style1">
+
+                    &nbsp;</td>
+                <td class="style4">
+                    &nbsp;</td>
+                <td class="style3">
+                    &nbsp;</td>
+                <td class="style5">
+                    &nbsp;</td>
+                <td class="style5">
+                    &nbsp;</td>
+                <td class="style10">
+                    &nbsp;</td>
+            </tr>
+        </table>
+
+</div>
+
+
+
+   <div class="powerads">
+   <!---start for left ad rotator---->
+   <div style="float:left;width:250px; height:250px; background-color:#0172BB;">
+
+<asp:AdRotator ID="leftadrotator" Width="250px" height="250px" runat="server" AdvertisementFile ="~/ads.xml" Target = "_blank" />
+
+   </div>
+   <!---end for left ad rotator---->
+   <div id="outerContainer" style="background-color:White;" align="left" >
+			<div id="imageScroller" align="center">
+
+				<div id="viewer"  class="js-disabled" align="center"
+                    
+                    
+                    
+                    style="border: 3px solid #CCCCCC;  background-color: #006699; right: -131px;">
+                    <h2 class="style30">&nbsp;Quick Classified</h2>
+					<a class="wrapper" href="" title=""><img class="logo" id="apple" 
+                        src="../../images/image%20Slider/logos/education.jpg" alt="Education" 
+                        style="border: 3px solid #CCCCCC; margin-right:10px" ></a>
+
+					<a class="wrapper" href="" title=""><img class="logo" id="firefox" src="../../images/image Slider/logos/homeappliances.jpg" alt="Home Appliances" style="border: 3px solid #CCCCCC; margin-right:10px" ></a>
+					<a class="wrapper" href="" title=""><img class="logo" id="jquery" src="../../images/image Slider/logos/electronics.jpg" alt="Electronics" style="border: 3px solid #CCCCCC; margin-right:10px" ></a>
+					<a class="wrapper" href="" title=""><img class="logo" id="twitter" src="../../images/image Slider/logos/autos.jpg" alt="Autos" style="border: 3px solid #CCCCCC; margin-right:10px" ></a>
+					<a class="wrapper" href="" title=""><img class="logo" id="jqueryui" src="../../images/image Slider/logos/matrimonial.jpg" alt="Matrimonial" style="border: 3px solid #CCCCCC; margin-right:10px" ></a>
+				    <a class="wrapper" href="" title=""><img class="logo" id="Img1" src="../../images/image Slider/logos/RealEstate.jpg" alt="Real Estate" style="border: 3px solid #CCCCCC; margin-right:10px" ></a>
+                    <a class="wrapper" href="" title=""><img class="logo" id="Img2" src="../../images/image Slider/logos/Events.jpg" alt="Events" style="border: 3px solid #CCCCCC; margin-right:10px" ></a>
+                    <a class="wrapper" href="" title=""><img class="logo" id="Img3" src="../../images/image Slider/logos/miscellaneous.jpg" alt="Events" style="border: 3px solid #CCCCCC; margin-right:10px" ></a>
+                    <a class="wrapper" href="" title=""><img class="logo" id="Img4" src="../../images/image Slider/logos/services.jpg" alt="Events" style="border: 3px solid #CCCCCC; margin-right:10px" ></a>
+
+             
+ 
+                </div>
+			</div>
+
+    <%--        <ul class="thumb">
+	<li><a href="#"><img src="images/full%20images/thumb1.jpg" alt="" /></a></li>
+	<li><a href="#"><img src="images/full%20images/thumb2.jpg" alt="" /></a></li>
+	<li><a href="#"><img src="images/full%20images/thumb3.jpg" alt="" /></a></li>
+	<li><a href="#"><img src="images/full%20images/thumb4.jpg" alt="" /></a></li>
+	<li><a href="#"><img src="images/full%20images/thumb5.jpg" alt="" /></a></li>
+	<li><a href="#"><img src="images/full%20images/thumb6.jpg" alt="" /></a></li>
+	<li><a href="#"><img src="images/full%20images/thumb7.jpg" alt="" /></a></li>
+	<li><a href="#"><img src="images/full%20images/thumb8.jpg" alt="" /></a></li>
+	<li><a href="#"><img src="images/full%20images/thumb9.jpg" alt="" /></a></li>
+</ul>--%>
+
+
+
+
+
+		</div>
+        <!---start for right ad rotator---->
+<div style="float:right;width:250px;margin-right:10px; height:250px; background-color:#0172BB;">
+<asp:AdRotator ID="rightadrotator" Width="250px" Height="250px" runat="server" AdvertisementFile ="~/ads.xml" Target = "_blank" />
+
+</div>
+		<!---end for right ad rotator---->
+     
+	
+   
+   
+   </div>
+
+   <div class="rightdiv">
+        
+        
+        <div class="finduson">
+        <h3 class="heading3">FIND US ON</h3>
+                <hr />
+            
+        <ul>
+                	
+                    <li><a href="http://www.facebook.com"><img src="../../Styles/images/facebook.png" alt="" /></a></li>
+                    <li><a href="http://www.twitter.com"><img src="../../Styles/images/twitter.png" alt="" /></a></li>
+                    <li><a href="http://www.linkedin.com"><img src="../../Styles/images/linkedin.png" alt="" /></a></li>
+                    <li><a href="http://www.flickr.com"><img src="../../Styles/images/flickr.png" alt="" /></a></li>
+                    <li><a href="http://www.rss.com"><img src="../../Styles/images/rss.png" alt="" /></a></li>
+                    <li><a href="http://www.youtube.com"><img src="../../Styles/images/youtube.png" alt="" /></a></li>
+                </ul>
+        
+        </div>
+               
+        <div class="news" >
+        
+        <h3 class="heading3">NEWS</h3>
+        <hr style="height: 0px; width: 208px;" />
+        <div class="newsScroller" id="newsScroll">
+    <ul>
+        <li>
+            <a class="title" href="#">My Story 1</a>
+            <span class="desc">
+               KAMZ Technologies is going to deploy the bets version of its classified web </span>
+            <a class="link" href="http://www.quickclassified.somee.com" target="_blank">visit...</a>
+        </li>
+        <li>
+            <a class="title" href="#">My Story 2</a>
+            <span class="desc">
+            Now a days vision instruments is in its testing phase             </span>
+            <a class="link" href="http://www.kamz.comli.com" target="_blank">visit...</a>
+        </li>
+        <li>
+            <a class="title" href="#">My Story 3</a>
+            <span class="desc">
+                Soon KAMZ technologies will be uload a new social network all across in world .its bets versiion is ready .            </span>
+            <a class="link" href="http://www.kamzsocial.comli.com" target="_blank">visit...</a>
+        </li>
+        <li>
+            <a class="title" href="#">KAMZ technologies News Ticker</a>
+            <span class="desc">
+                &copy; 2012 KAMZ technologies
+            </span>
+        </li>
+    </ul>
+</div>
+                      
+        </div>
+        
+        </div>
+        
+        
+            
+
+   <div class="leftdiv">
+        
+        <div class="grey demo-container">
+
+<ul class="accordion"  id="accordion-2">
+  <li><asp:LinkButton ID="accordian_autos_lb" runat="server">Autos</asp:LinkButton><ul>
+    <li><a href="showdata.aspx?attr=ad_autos_car"  class="homeAdsNavAnchor autosmain" >Cars</a></li>
+    <li><a href="showdata.aspx?attr=ad_autos_motor_vehicle"  class="homeAdsNavAnchor autosmain" >Motorcycles</a></li>
+    <li><a href="showdata.aspx?attr=ad_autos_auto_parts"  class="homeAdsNavAnchor autosmain" >Auto Parts</a></li>
+    <li><a href="showdata.aspx?attr=ad_autos_boats_ships"  class="homeAdsNavAnchor autosmain" >Boats-Ships</a></li>
+    <li><a href="showdata.aspx?attr=ad_autos_heavy_vehicle"  class="homeAdsNavAnchor autosmain" >Heavy Vehicles</a></li>
+    <li><a href="showdata.aspx?attr=ad_autos_other_vehicle"  class="homeAdsNavAnchor autosmain" >Other Vehicle</a></li>
+ 
+</ul>
+</li>
+ <li><asp:LinkButton ID="accordian_home_appliances_lb" runat="server">Home Appliances</asp:LinkButton><ul>
+    <li><a href="showdata.aspx?attr=ad_home_appliances_air_conditioner"  class="homeAdsNavAnchor autosmain" >Air Conditioner</a></li>
+    <li><a href="showdata.aspx?attr=ad_home_appliances_fridge"  class="homeAdsNavAnchor autosmain" >Fridge</a></li>
+    <li><a href="showdata.aspx?attr=ad_home_appliances_furniture"  class="homeAdsNavAnchor autosmain" >Furniture</a></li>
+    <li><a href="showdata.aspx?attr=ad_home_appliances_other_home_appliances"  class="homeAdsNavAnchor autosmain" >Other Home Appliances</a></li>
+    <li><a href="showdata.aspx?attr=ad_home_appliances_tv"  class="homeAdsNavAnchor autosmain" >TV</a></li>
+    <li><a href="showdata.aspx?attr=ad_home_appliances_vacume_cleaner"  class="homeAdsNavAnchor autosmain" >Vacume cleaner</a></li>
+    <li><a href="showdata.aspx?attr=ad_home_appliances_water_chiller"  class="homeAdsNavAnchor autosmain" >Water Chiller</a></li>
+ 
+</ul>
+</li>
+
+ <li><asp:LinkButton ID="accordian_electronics_lb" runat="server">Electronics</asp:LinkButton><ul>
+  <li><a href="showdata.aspx?attr=ad_electronics_computer"  class="homeAdsNavAnchor autosmain" >Computers</a></li>
+    <li><a href="showdata.aspx?attr=ad_elecronics_computer_accessories"  class="homeAdsNavAnchor autosmain" >Computer Accessories</a></li>
+    <li><a href="showdata.aspx?attr=ad_electronics_laptops"  class="homeAdsNavAnchor autosmain" >Laptops</a></li>
+    <li><a href="showdata.aspx?attr=ad_electronics_mobile"  class="homeAdsNavAnchor autosmain" >Mobile</a></li>
+    <li><a href="showdata.aspx?attr=ad_electronics_mobile_accessories"  class="homeAdsNavAnchor autosmain" >Mobile Accessories</a></li>
+    <li><a href="showdata.aspx?attr=ad_electronics_software"  class="homeAdsNavAnchor autosmain" >Softwares</a></li>
+    <li><a href="showdata.aspx?attr=ad_electronics_other_electronics"  class="homeAdsNavAnchor autosmain" >Other Electronics</a></li>
+    
+</ul>
+</li>
+
+ <li><asp:LinkButton ID="accordian_education_lb" runat="server">Education</asp:LinkButton><ul>
+    <li><a href="showdata.aspx?attr=ad_education_computer_institutes"  class="homeAdsNavAnchor autosmain" >Computer Insitutes</a></li>
+    <li><a href="showdata.aspx?attr=ad_education_cooking_classes"  class="homeAdsNavAnchor autosmain" >Cooking Classes</a></li>
+    <li><a href="showdata.aspx?attr=ad_education_home_tution"  class="homeAdsNavAnchor autosmain" >Home Tutions</a></li>
+    <li><a href="showdata.aspx?attr=ad_education_launage_academies"  class="homeAdsNavAnchor autosmain" >Launage Academies</a></li>
+    <li><a href="showdata.aspx?attr=ad_education_montessori"  class="homeAdsNavAnchor autosmain" >Montessori</a></li>
+    <li><a href="showdata.aspx?attr=ad_education_private_tutors"  class="homeAdsNavAnchor autosmain" >Private Tutors</a></li>
+    <li><a href="showdata.aspx?attr=ad_education_schools"  class="homeAdsNavAnchor autosmain" >Schools</a></li>
+    <li><a href="showdata.aspx?attr=ad_education_short_courses"  class="homeAdsNavAnchor autosmain" >Short Courses</a></li>
+    <li><a href="showdata.aspx?attr=ad_education_technical_institute"  class="homeAdsNavAnchor autosmain" >Technical Insitutes</a></li>
+</ul>
+</li>
+
+ <li><asp:LinkButton ID="accordian_miscellenous_lb" runat="server">Miscellenous</asp:LinkButton><ul>
+    <li><a href="showdata.aspx?attr=ad_miscellaneous_art_crafts"  class="homeAdsNavAnchor autosmain" >Arts & Crafts</a></li>
+    <li><a href="showdata.aspx?attr=ad_miscellaneous_book_magazines"  class="homeAdsNavAnchor autosmain" >Books & Magazines</a></li>
+    <li><a href="showdata.aspx?attr=ad_miscellaneous_clothing"  class="homeAdsNavAnchor autosmain" >Clothing</a></li>
+    <li><a href="showdata.aspx?attr=ad_miscellaneous_eating_outlets"  class="homeAdsNavAnchor autosmain" >Eating Outlets</a></li>
+    <li><a href="showdata.aspx?attr=ad_miscellaneous_guns"  class="homeAdsNavAnchor autosmain" >Guns</a></li>
+    <li><a href="showdata.aspx?attr=ad_miscellaneous_pets"  class="homeAdsNavAnchor autosmain" >Pets</a></li>
+    <li><a href="showdata.aspx?attr=ad_miscellaneous_jewelery"  class="homeAdsNavAnchor autosmain" >Jewelery</a></li>
+ </ul>
+</li>
+
+ <li><asp:LinkButton ID="accordian_events_lb" runat="server">Events</asp:LinkButton><ul>
+    <li><a href="showdata.aspx?attr=ad_events_announcements"  class="homeAdsNavAnchor autosmain" >Annoucements</a></li>
+    <li><a href="showdata.aspx?attr=ad_events_auctions"  class="homeAdsNavAnchor autosmain" >Auctions</a></li>
+    <li><a href="showdata.aspx?attr=ad_events_lots_funds"  class="homeAdsNavAnchor autosmain" >Lots funds</a></li>
+    <li><a href="showdata.aspx?attr=ad_events_personals"  class="homeAdsNavAnchor autosmain" >Personals</a></li>
+    <li><a href="showdata.aspx?attr=ad_events_special_events_occasions"  class="homeAdsNavAnchor autosmain" >Special Events-Ocassions</a></li>
+    <li><a href="showdata.aspx?attr=ad_events_special_tender_notice"  class="homeAdsNavAnchor autosmain" >Tender Notice</a></li>
+    
+ </ul>
+</li>
+
+ <li><asp:LinkButton ID="accordian_real_estate_lb" runat="server">Real Estate</asp:LinkButton><ul>
+    <li><a href="showdata.aspx?attr=ad_real_estate_appartment"  class="homeAdsNavAnchor autosmain" >Appartments</a></li>
+    <li><a href="showdata.aspx?attr=ad_real_estate_houses"  class="homeAdsNavAnchor autosmain" >Houses</a></li>
+    <li><a href="showdata.aspx?attr=ad_real_estate_offices"  class="homeAdsNavAnchor autosmain" >Offices</a></li>
+    <li><a href="showdata.aspx?attr=ad_real_estate_plots_lands"  class="homeAdsNavAnchor autosmain" >Plots & Lands</a></li>
+    <li><a href="showdata.aspx?attr=ad_real_estate_shops"  class="homeAdsNavAnchor autosmain" >Shops</a></li>
+</ul>
+</li>
+
+ <li><asp:LinkButton ID="accordian_services_lb" runat="server">Services</asp:LinkButton><ul>
+    <li><a href="showdata.aspx?attr=ad_services"  class="homeAdsNavAnchor autosmain" >Other Services</a></li>
+</ul>
+</li>
+
+ <li><asp:LinkButton ID="accordian_Matrimonial_lb" runat="server">Matrimonial</asp:LinkButton><ul>
+    <li><a href="showdata.aspx?attr=ad_matrimonial_brides"  class="homeAdsNavAnchor autosmain" >Brides</a></li>
+    <li><a href="showdata.aspx?attr=ad_matrimonial_grooms"  class="homeAdsNavAnchor autosmain" >Grooms</a></li>
+</ul>
+</li>
+
+
+
+</ul>
+</div>
+
+        
+        
+        
+        
+        
+        </div>
+
+               
+             
+               
+   <div class="main">
+        
+           <div class="centrediv">       
+           &nbsp;<asp:ContentPlaceHolder ID="MainContent" runat="server">
+           
+               <asp:PlaceHolder ID="body_ph" runat="server"></asp:PlaceHolder>
+        
+               </asp:ContentPlaceHolder>
+             
+               
+            
+
+        </div>
+             
+    
+       
+       </div>
+             
+    
+       
+       <div class="footer">
+    
+         
+          
+
+
+     <%-- Copyright &copy; KAMZ| <a href="http://www.kamz.com.pk">KAMZ</a> | QUICKCLASSIFIED.PK |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CONTACT US:&nbsp;&nbsp;&nbsp;&nbsp;           | KAMZ.RAVIAN@gmail.com | --%>
+    </div>
+    
+  
+     
+    </form>
+    
+</body>
+</html>

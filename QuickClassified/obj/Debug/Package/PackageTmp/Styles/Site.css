@@ -1,0 +1,888 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body
+{
+    /*background: #b6b7bc;*/
+    font-size: .80em;
+    font-family: "Helvetica Neue" , "Lucida Grande" , "Segoe UI" , Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px 0px 3px 0px;
+    padding: 0px;
+    color: #696969;
+    background-image: url('../images/bodyimage.jpg');
+    height: 1668px;
+}
+
+a:link, a:visited
+{
+    color: #034af3;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+
+/* ABOUT US   
+----------------------------------------------------------*/
+
+.ABOUTUS
+{
+    background-image: url('../images/aboutuspage.jpg');
+    height: 125px;
+    width: 547px;
+}
+
+
+
+
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #0172BB;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+    
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    width: 533px;
+    
+    
+}
+
+h2
+{
+    font-size: 1.5em;
+    height: 25px;
+}
+
+h3
+{
+    font-size: 2.0em;
+    font-weight: bold;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{
+    width: 1050px;
+    background-color: #FFFFFF;
+    margin: 4px auto;
+    border: #fff;
+    height: auto;
+    margin-bottom:0px;
+}
+
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px; /*background: #4b6c9e;*/
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 106px;
+    background-repeat:no-repeat;
+    background-image: url('../images/newheader.jpg');
+}
+
+
+
+
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.main
+{
+    
+    padding: 0px 12px;
+    margin: 12px 11px 6px 250px;
+    
+    min-height: 420px;
+    height: 1423px;
+    width: 542px;
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.footer
+{
+     background-color:Blue;
+    background-image: url('../images/footer.jpg');
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+    color:White;
+    height: 44px;
+    width:1050px;
+    margin-top:0px;
+} 
+
+
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+  .hovermenu ul{
+font: bold 13px arial;
+padding-left: 0;
+margin-left: 0;
+height: 17px;
+    width: 958px;
+    float:right;
+    margin-top:6px;
+
+}
+
+.hovermenu ul li{
+list-style: none;
+display: inline;
+}
+
+.hovermenu ul li a
+{
+    padding: 2px 0.5em;
+    text-decoration: none;
+   
+    color:  #0172BB;
+    background-color: #FFFFFF;
+   /* border: 2px solid #29415E;*/
+    width: 124px;
+    height: 24px;
+}
+
+.hovermenu ul li a:hover
+{
+    background-color: #FFFFFF;
+    border: 5px ridge #FFFFFF;
+}
+
+ .hovermenu ul li a:active
+ { /* Apply mousedown effect only to NON IE browsers */
+border-style: inset;
+}
+    
+   
+    /*background-image: url('../images/menulinksimagecopy.png');*/
+
+/*div.menuofitems:hover
+{
+    background-color: #000000;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+div.menuofitems:active
+{
+    background-color: #ffffff;
+    color: #FFFFFF;
+    text-decoration: none;
+}*/
+
+
+div.hideSkiplink
+{
+    /* background-color: #FFFFFF;*/
+    width: 100%;
+    height: 51px;
+    background-image: url('../images/menuBarimage.jpg');
+}
+
+div.menu
+{
+    padding: 4px 0px 4px 8px;
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+   /* background-color: #1FA4F1;*/
+    border: 1px #4e667d solid;
+    color: #dde4ec;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+div.menu ul li a:hover
+{
+    background-color: #FFFFFF;
+    color: #465c71;
+    text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #fff;
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 42%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+    width: 543px;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+
+.loginDisplay
+{
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color: White;
+    height: 103px;
+}
+
+.loginDisplay a:link
+{
+    color: white;
+}
+
+.loginDisplay a:visited
+{
+    color: white;
+}
+
+.loginDisplay a:hover
+{
+    color: white;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}
+.pppp
+{
+    color: #666666;
+}
+
+
+
+/*MY CUSTOM DEFINED CSS */
+
+
+
+/**************************************************************
+SEARCH MENU
+**************************************************************/
+.search
+{
+    position: relative;
+    margin: 5px 0 0 20px;
+    /*background: #503A68;*/
+    width: 959px;
+    height: 69px;
+    border-radius: 3px;
+    top: -4px;
+    left: -43px;
+    border-color: #503A68;
+    float: right;
+    background-image: url('../images/33.png');
+}
+
+    
+.SearchHeading
+{
+    width: 121px;
+    height: 67px;
+    color: #FFFFFF;
+    float: left;
+    background-image: url('../images/PostYouradherecopy.png');
+    
+}
+.SearchButton
+{
+    background-image: url('../images/SearchButton.png');
+   
+ 
+}
+
+.SearchButton:hover
+{ 
+     background-image: url('../images/SearchButton_hover.png'); 
+}
+
+
+
+.search input[type=text]
+{
+    font-size:small;
+    border:2px #ccc;
+    border-radius:2px;
+        
+    }
+    
+    .search input[type=submit]
+{
+    
+    border:2px  #ccc;
+    /*border-radius:10px;*/
+}
+
+ .search input[type=submit]:hover
+{
+    color:Black;
+        
+    }
+
+
+
+
+
+.search select
+{
+    border:2px ridge #ccc;
+    border-radius:2px;
+        
+    }
+
+
+
+.powerads
+{
+    margin: 5px 0 0 20px;
+    float: left;
+    background-color: #FFFFFF;
+    width: 1017px;
+    height: 262px;
+    border-radius: 10px;
+}
+    
+    /* THIS IS FOR LEFT NAVIGATION*/
+        .leftdiv
+{
+
+ 
+    margin:15px 0 0 20px;
+    float:left;
+    width: 224px;
+    height: 274px;
+    background-color:white;
+}   
+        /* THIS IS free ads */
+    .centrediv
+{
+    
+    width: 558px;
+    height: 1111px;
+    margin-left: 0px;
+    margin-right: 0;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+  .rightdiv
+{
+
+ 
+    margin:15px 20px 0 0 ;
+    float:right;
+    width:210px;
+    
+    /*background: #4b6c9e;*/
+    
+    } 
+    
+
+        
+    .news
+{
+    margin: 5px 0 0 0;
+    color: White;
+    text-transform: uppercase;
+    text-align: center;
+    height: 250px;
+    /*background: #4b6c9e;*/
+    border-radius: 5px;
+    width: 208px;
+    background-image: url('../images/newsflash.jpg');
+}
+        
+       
+            
+ /*           
+======================================================================
+	Share with us
+=======================================================================
+*/
+
+    .finduson
+{
+    height: 80px;
+    /*background: #4b6c9e;*/
+    border-radius: 5px;
+    background-image: url('../images/Findus.jpg');
+}
+
+
+/*
+.finduson 
+{
+     margin:0px 0 0 0px ;
+        color:White;
+        text-transform:uppercase;
+        text-align:center;
+        height:80px;
+        background: #4b6c9e;
+        border-radius:5px;
+    
+    
+    
+	width:213px;
+	height:200px;
+	padding:10px 15px;
+	float:right;
+	border:#eeeeee solid 1px;
+	/*background-image:url(../images/grey_bg.gif);
+	background-repeat:repeat-x;
+	background-color:#f9f9f9;
+	margin-bottom:10px;
+}
+*/
+
+
+.finduson ul
+{
+    margin-top:5px;
+	float:left;
+	list-style:none;
+    height: 30px;
+}
+.finduson ul li{
+	float:left;
+	padding-left:5px;
+}
+
+.heading3
+{
+    text-align:center;
+    color:White;
+    font-size:18px;
+}
+
+
+/***************************************************************
+        COLORS
+***************************************************************/
+
+
+.colr1
+{
+    color:Blue;
+    
+    
+    
+    }
+    
+    
+.colr2
+{
+    color:Green;
+    
+    
+    
+    }
+    
+.colr3
+{
+    color:white;
+    
+    
+    
+    }
+    
+.colr4
+{
+    color:gray;
+    
+    
+    
+    }
+    
+.colr5
+{
+    color:red;
+    float:right;
+    
+}
+    
+    /***************************************************************
+        UPPERCASE
+    ***************************************************************/
+    
+    
+    .uper
+    {
+        text-transform:uppercase;
+        
+        
+        }
+        
+        
+        
+        
+    /***************************************************************
+            CSS FOR MYADDS PAGE
+    ***************************************************************/
+    
+    
+    
+    
+       
+               /***************************************************************
+                MY INFO
+               ***************************************************************/
+
+.myinfodiv
+{
+    color:black;
+    height:150px;
+    background-color:White;
+    border-radius:5px;
+    width: 551px;
+}
+    
+    
+    .photo
+    {
+        float:right;
+        margin:5px 5px 0 0;
+        width:128px;
+        height:135px;
+        
+               
+        }
+        
+        
+        .name
+    {
+        float:left;
+        margin:5px 0 0 5px;
+        width:409px;
+        height:30px;
+        
+               
+        }
+        
+        .cell
+          {
+        float:left;
+        margin:5px 0 0 5px;
+        width:409px;
+        height:30px;
+        
+               
+        }
+        
+        .address
+          {
+        float:left;
+        margin:5px 0 0 5px;
+        width:409px;
+        height:30px;
+        
+               
+        }
+        
+        
+        .email
+        {
+        float:left;
+        margin:5px 0 0 5px;
+        width:409px;
+        height:30px;
+        
+                        
+            }
+        
+        
+        
+        .adsh1
+        {
+            font-size:18px;
+            font-weight:bold;
+            color:black;
+           text-transform:uppercase;
+            
+            
+            }
+        
+        
+        
+           /***************************************************************
+        Default Page css
+        ***************************************************************/
+        
+        div.MainPageItems
+        {
+            height:768%;
+            
+            
+        }
+        
+        .contentpages
+         {
+         	
+         	
+         	height:auto;
+         	
+         	
+         	
+        }
+         .Letfcontentpages
+         {
+             float:left;
+    width: 183px;
+    color:White;
+}
+
+.innerleftdiv
+{
+    
+    height:500px;
+    width: 183px;
+}
+.Autosheading
+{
+    
+    
+    
+    }
+
+
+          .Centercontentpages
+          {
+              float:left;
+    
+    height: 497px;
+    width: 183px;
+    color:White;
+}
+          .Rightcontentpages
+          {
+              
+              float:left;
+    
+    height: 494px;
+    width: 183px;
+    color:White;
+}
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        /***************************************************************
+        MY ADS
+        ***************************************************************/
+
+/** ALL THE CSS FOR POSTED ADS WILL GO HERE.................
+
+
+
+ 
+
+/* -------------------------- MY PROFILE--------------------------------*/
+.profile
+{
+    border: medium groove #0172BB;
+    height: 249px;
+    width: 538px;
+    background: white;
+    
+    font-size: x-large;
+}
+    .edit
+{
+    border-style: dashed;
+    border-color: #000000;
+    width: 501px;
+    height: 343px;
+    background: #2C4765;
+}
+          .editinfo
+    {
+        width:501px;
+        height:175px;
+        background:#2C4765;
+        
+        
+        
+        
+        }
+        
+        
+        /*   for hover action  */
+        
+                .autosmain
+        {
+            
+            
+            
+            }
+            
+     .autosmain:hover
+{
+    /* border: thin ridge #666666;*/
+    background-color: #000000;
+    text-decoration: none;
+    color: white;
+}

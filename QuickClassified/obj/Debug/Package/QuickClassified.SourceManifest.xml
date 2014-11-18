@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <contentPath path="C:\Users\142-bscs-09\Desktop\classified-build 15-2-12-complete\QuickClassified\obj\Debug\Package\PackageTmp" />
+  <setAcl path="C:\Users\142-bscs-09\Desktop\classified-build 15-2-12-complete\QuickClassified\obj\Debug\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\142-bscs-09\Desktop\classified-build 15-2-12-complete\QuickClassified\obj\Debug\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\142-bscs-09\Desktop\classified-build 15-2-12-complete\QuickClassified\obj\Debug\Package\PackageTmp\App_Data" setAclResourceType="Directory" setAclAccess="Write" />
+</sitemanifest>

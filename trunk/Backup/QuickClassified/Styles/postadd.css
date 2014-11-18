@@ -1,0 +1,72 @@
+﻿
+    
+
+
+.header
+{
+    color: #000000;
+    background-color: White;
+    top: -1px;
+    left: -1px;
+}
+	.separotor
+	{
+	color:Blue;
+		
+     }
+		
+		.span-3 {
+width: 110px;
+}
+
+.widget .heading h1 {
+float: left;
+font: bold 13px/26px Arial;
+padding-left: 32px;
+margin: 0;
+background-image: url('/img/icon.gif');
+background-repeat: no-repeat;
+}
+.autos .heading h1, #listing .autos .title h2 
+{
+background-image: url("../../images/postad_icons/car_icon.gif");
+}
+
+.titletextbox
+{
+	width:390px;
+	margin-left:30px;
+	}
+	
+	.starcolour
+	{
+		color:#C00
+	 }
+	          
+	          .dropdowncity
+	          {
+	          	margin-left:32px;
+	          	width:200px;
+	          	
+	          	}
+	          	
+	          	.dropdownlocation
+	          {
+	          	margin-left:5px;
+	          	width:200px;
+	          	
+	          	}
+	          	
+ 	.dropdownusertype
+	          {
+	          	margin-left:-5px;
+	          	width:200px;
+	          }
+	          
+	        .pricetextbox
+{
+	margin-left:330px;
+	margin-top: 0px;
+	float:left;
+
+} 

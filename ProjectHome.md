@@ -1,0 +1,1 @@
+This website is the sale and purchase website that has its own  DWH as well as this website fetch the ads of other classified.
